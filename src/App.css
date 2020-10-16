@@ -55,7 +55,7 @@ body {
 
 }
 .movie h3{
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
 }
@@ -63,12 +63,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 1rem;
  
 }
 .movie-desc h3{
   margin-left: 10px;
  
+}
+.text p{
+  color: white; 
+}
+.text h2{
+  color: white; 
 }
 .Movie-over{
   position: absolute;
@@ -78,7 +84,6 @@ body {
   overflow: auto;
   max-height: 100%;
   background-color: white;
-  color: #373b69;
   transform: translateY(102%);
   transition: transform 0.3s ease-in-out;
 }
@@ -87,7 +92,10 @@ body {
 }
 .Movie-over h2, p{
   margin: 1rem;
+  color: #373b69;
 }
+
+
 
 
 
