@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
  function TrailerMovie({match}) {
   const movievd = MoviesData.find(({ title }) => title === match.params.title);
   return (
-    <Link to={`/trailermovie/${movievd.title}`}> 
+   
      <div className="video">
         <ReactPlayer url={movievd.video} width="340px" />
         <div className="text">
@@ -19,7 +19,7 @@ import Button from 'react-bootstrap/Button';
           </Link>
         
       </div>
-      </Link>
+      
   );
 };
 export default TrailerMovie;
