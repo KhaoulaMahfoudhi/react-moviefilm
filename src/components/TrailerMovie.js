@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button';
   return (
    
      <div className="video">
-        <ReactPlayer url={movievd.video} width="340px" />
+        <ReactPlayer url={movievd.video}  />
         <div className="text">
           <h2> overview: </h2>
           <p>{movievd.description}</p>
